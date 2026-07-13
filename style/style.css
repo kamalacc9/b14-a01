@@ -138,3 +138,53 @@
 .card-content h3 {
   margin: 4px 0;
 }
+/* price card style */
+.price-section {
+  border: 3px solid magenta;
+  height: 900px;
+  text-align: center;
+  align-items: center;
+}
+.semio-bold {
+  font-weight: 600;
+}
+.price-card-container {
+  height: 492px;
+  border: 2px solid blue;
+  margin: 80px 60px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 60px;
+}
+.price-card {
+  border: 2px solid green;
+  height: 440px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: left;
+}
+.price-card button {
+  display: block;
+  margin: 0 auto;
+}
+.price-card h1 {
+  font-weight: bold;
+}
+.price-card p {
+  color: #888888;
+}
+.price-card p,
+h1 {
+  margin-left: 32px;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feature li::marker {
+  color: #2563eb;
+}
