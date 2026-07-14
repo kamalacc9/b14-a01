@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./style/style.css" />
     <style>
       body {
@@ -98,9 +99,13 @@
       <!-- price section -->
       <section class="price-section">
         <h1 class="semio-bold">Secure Your Spot</h1>
-        <p>Early-bird pricing ends August 15, 2026.</p>
+        <p style="padding-left: 50px; color: #575757">
+          Early-bird pricing ends August 15, 2026.
+        </p>
+
         <div class="price-card-container">
-          <div class="price-card">
+          <!-- 1st card -->
+          <div class="price-card" style="background-color: #ffffff">
             <p>Standard</p>
             <h1>$399</h1>
             <p>per person</p>
@@ -121,21 +126,59 @@
                 <li>Digital recordings (30 days)</li>
               </ul>
             </div>
-            <button
-              style="
-                height: 45px;
-                width: 280px;
-                border: 1px solid #2563eb;
-                color: #2563eb;
-                border-radius: 5px;
-                background-color: white;
-              "
-            >
-              Get Standard
-            </button>
+            <button class="fst-card-btn">Get Standard</button>
           </div>
-          <div class="price-card"></div>
-          <div class="price-card"></div>
+          <!-- 2nd card -->
+          <div
+            class="price-card"
+            style="background-color: black; color: #ffffff"
+          >
+            <p style="color: #93c5fd">Pro</p>
+            <h1>$749</h1>
+            <p>per person</p>
+            <div
+              style="
+                border-bottom: 1px solid rgb(67, 66, 66);
+                width: 300px;
+                margin: 0 auto;
+              "
+            ></div>
+            <div>
+              <ul class="feature">
+                <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship (30 min)</li>
+              </ul>
+            </div>
+            <button class="second-card-btn">Get Pro</button>
+          </div>
+          <!-- 3rd card -->
+          <div class="price-card" style="background-color: #f8f9fb">
+            <p>Team</p>
+            <h1>$5,999</h1>
+            <p>per person</p>
+            <div
+              style="
+                border-bottom: 1px solid black;
+                width: 300px;
+                margin: 0 auto;
+              "
+            ></div>
+            <div>
+              <ul class="feature">
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge access</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth (1 day)</li>
+                <li>Priority customer support</li>
+              </ul>
+            </div>
+            <button class="thrd-card-btn">Get Standard</button>
+          </div>
         </div>
       </section>
     </main>

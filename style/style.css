@@ -140,17 +140,14 @@
 }
 /* price card style */
 .price-section {
-  border: 3px solid magenta;
-  height: 900px;
   text-align: center;
   align-items: center;
 }
 .semio-bold {
-  font-weight: 600;
+  font-size: 80px;
+  margin-bottom: 4px;
 }
 .price-card-container {
-  height: 492px;
-  border: 2px solid blue;
   margin: 80px 60px;
   padding-bottom: 50px;
   display: flex;
@@ -160,15 +157,22 @@
   gap: 60px;
 }
 .price-card {
-  border: 2px solid green;
+  border: 1px solid rgba(206, 203, 203, 0.954);
   height: 440px;
   width: 350px;
   border-radius: 8px;
   text-align: left;
+  transition: all 0.3s ease;
+}
+.price-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 .price-card button {
   display: block;
   margin: 0 auto;
+  transition: 2s;
+  cursor: pointer;
 }
 .price-card h1 {
   font-weight: bold;
@@ -187,4 +191,36 @@ h1 {
 }
 .feature li::marker {
   color: #2563eb;
+}
+.price-card button:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+.fst-card-btn {
+  height: 45px;
+  width: 280px;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+.second-card-btn {
+  height: 45px;
+  width: 280px;
+  border: 1px solid #2563eb;
+  color: white;
+  border-radius: 5px;
+  background-color: #2563eb;
+  font-weight: bold;
+}
+.thrd-card-btn {
+  height: 45px;
+  width: 280px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
 }
