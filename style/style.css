@@ -20,7 +20,7 @@
   font-size: 80px;
   padding-top: 50px;
 }
-/* nav style */
+
 .nav-container {
   margin: 23.5px 180px;
   height: 50px;
@@ -53,7 +53,7 @@
   width: 188px;
   font-weight: bold;
 }
-/* btn style */
+
 .btn {
   background-color: #1d4ed8;
   color: white;
@@ -66,7 +66,6 @@
   background-color: orange;
 }
 
-/* banner section style */
 .banner-container {
   position: relative;
   background-image: url(../assets/banner.jpg);
@@ -101,9 +100,8 @@
   gap: 250px;
   z-index: 1;
 }
-/* card section style */
+
 .card-section {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -138,7 +136,7 @@
 .card-content h3 {
   margin: 4px 0;
 }
-/* price card style */
+
 .price-section {
   text-align: center;
   align-items: center;
@@ -224,7 +222,7 @@ h1 {
   background-color: white;
   font-weight: bold;
 }
-/* footer style */
+
 .ftr {
   background-color: #0d1b2a;
   color: #888888;
@@ -246,7 +244,7 @@ h1 {
   gap: 25px;
   padding-right: 50px;
 }
-/* something missing style */
+
 .sponsor-section {
   background-color: #191636;
   color: #ffffff;
